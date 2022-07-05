@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alto_logo_inicio">150dp</dimen>
+    <dimen name="alto_logo_cecomp">100dp</dimen>
+    <dimen name="alto_home_imagen">100dp</dimen>
+    <dimen name="card_corner_radius">25dp</dimen>
+    <dimen name="title_size_home_fragment">25sp</dimen>
+    <dimen name="text_size_home_fragment">15sp</dimen>
+    <dimen name="course_logo_size">80dp</dimen>
+
+</resources>

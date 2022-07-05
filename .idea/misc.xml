@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout-v26/fragment_home.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/activity_inicio.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/activity_main.xml" value="0.3125" />
         <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/fragment_cronograma.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/fragment_home.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/fragment_home.xml" value="0.2724014336917563" />
+        <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/fragment_ubicacion.xml" value="0.275" />
+        <entry key="..\:/Users/CECOMP/AndroidStudioProjects/AplicacionesMovilesB/app/src/main/res/layout/fragment_ubicacion_detail_dialogs.xml" value="0.275" />
       </map>
     </option>
   </component>

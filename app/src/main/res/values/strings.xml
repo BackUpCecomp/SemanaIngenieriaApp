@@ -1,5 +1,18 @@
 <resources>
-    <string name="app_name">AplicacionesMovilesB</string>
+    <string name="app_name">Semana de la Ingenieria App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_android_desc">logo de android</string>
+    <string name="logo_cecomp_desc">Logo de CECOMP</string>
+    <string name="home_fragment_que_es">QUIENES SOMOS?</string>
+    <string name="home_fragment_que_es_resp">Es una unidad de capacitación orientada a formar especialistas en diversas áreas de la Informática,
+        preparados para incorporar en su trabajo los últimos avances tecnológicos, a través de los cursos que se dictan periódicamente.
+    </string>
+    <string name="home_fragment_vision">VISION</string>
+    <string name="home_fragment_vision_resp">Ser líder en el país en prestación de servicios en tecnologías de la información como soporte al conocimiento humano.</string>
+    <string name="home_fragment_mision">MISION</string>
+    <string name="home_fragment_mision_resp">Brindar servicios de calidad en tecnologías de la información que contribuyan a perfeccionar el conocimiento
+        del recurso humano de la región; ayude a lograr los objetivos académicos y administrativos de la Universidad, permita la capacitación continua del personal
+        docente y administrativo; teniendo siempre presente la utilización adecuada de los recursos para un sostenimiento óptimo de la Ecología.</string>
+    <string name="home_fragment_cursos">CURSOS</string>
 </resources>
