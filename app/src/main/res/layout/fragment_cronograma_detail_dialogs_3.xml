@@ -38,7 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pavimento_conference_banner" />
+                        android:src="@drawable/entrevistas_conference_banner" />
 
                     <View
                         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:gravity="center_horizontal|center_vertical"
-                        android:text="Mecanica de suelos en construcción de Pavimentos"
+                        android:text="Recursos para pasar las entrevistas de programación"
                         android:textColor="@color/colortituloconferencia"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -70,7 +70,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="13/06/2022 16:00"
+                        android:text="13/06/2022 17:30"
                         android:textColor="@color/colortitulo"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -80,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:gravity="center_horizontal"
-                        android:text="Ing. Julio Cesar Rivasplata Diaz"
+                        android:text="Ing. Eduar Apaza Yáñez"
                         android:textColor="@color/colorexpositor"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -93,10 +93,10 @@
                         android:layout_width="50dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:background="#0086FB"
+                        android:background="#FF5C82"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:text="Civil"
+                        android:text="Systems"
                         android:textColor="#fff"
                         android:textSize="15sp"
                         android:textStyle="bold" />
