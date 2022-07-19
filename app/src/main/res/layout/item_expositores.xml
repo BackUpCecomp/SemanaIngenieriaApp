@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/list_expositores"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXPOSITORES"
+                android:textAlignment="center"
+                android:textColor="@color/colorexpositor"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:id="@+id/columna1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorfondoExpositor">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/alto_home_imagen"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/logo_cecomp_desc"
+                            android:src="@drawable/person"
+                            tools:srcCompat="@tools:sample/avatars" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ing. Ivan Leon Malo"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_size_home_fragment"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorexpositor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:justificationMode="inter_word"
+                            android:text="Ingenierio Civil"
+                            android:textColor="@color/colortitulo"
+                            android:textSize="@dimen/text_size_home_fragment"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorfondoExpositor">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/alto_home_imagen"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/logo_cecomp_desc"
+                            android:src="@drawable/person"
+                            tools:srcCompat="@tools:sample/avatars[10]" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ing. Julio Cesar Rivasplata Diaz"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_size_home_fragment"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorexpositor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:justificationMode="inter_word"
+                            android:text="Ingenierio Civil"
+                            android:textColor="@color/colortitulo"
+                            android:textSize="@dimen/text_size_home_fragment"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/columna2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorfondoExpositor">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/alto_home_imagen"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/logo_cecomp_desc"
+                            android:src="@mipmap/ic_yanez_round" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ing. Eduar Apaza Yáñez"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_size_home_fragment"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorexpositor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:justificationMode="inter_word"
+                            android:text="Ingenierio de Sistemas e Informatica"
+                            android:textColor="@color/colortitulo"
+                            android:textSize="@dimen/text_size_home_fragment"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorfondoExpositor">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/alto_home_imagen"
+                            android:src="@mipmap/ic_zelada_pozo"
+                            android:contentDescription="@string/logo_cecomp_desc"
+                            android:layout_margin="10dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ing. Oscar Zelada Pozo"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_size_home_fragment"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorexpositor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:justificationMode="inter_word"
+                            android:text="Ingenierio de Sistemas e Informatica"
+                            android:textColor="@color/colortitulo"
+                            android:textSize="@dimen/text_size_home_fragment"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/columna3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorfondoExpositor">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/alto_home_imagen"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/logo_cecomp_desc"
+                            android:src="@drawable/person"
+                            tools:srcCompat="@tools:sample/avatars[6]" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ing. Eduar Apaza Yáñez"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_size_home_fragment"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorexpositor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:justificationMode="inter_word"
+                            android:text="Ingenierio de Sistemas e Informatica"
+                            android:textColor="@color/colortitulo"
+                            android:textSize="@dimen/text_size_home_fragment"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorfondoExpositor">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/alto_home_imagen"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/logo_cecomp_desc"
+                            android:src="@drawable/person"
+                            tools:srcCompat="@tools:sample/avatars[11]" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ing. Oscar Zelada Pozo"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_size_home_fragment"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorexpositor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:justificationMode="inter_word"
+                            android:text="IIngenierio de Sistemas e Informatica"
+                            android:textColor="@color/colortitulo"
+                            android:textSize="@dimen/text_size_home_fragment"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

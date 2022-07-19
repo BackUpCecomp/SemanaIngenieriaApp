@@ -36,12 +36,15 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="200dp"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:gravity="bottom">
+
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/yanez" />
+                        android:src="@drawable/person"
+                        tools:src="@tools:sample/avatars" />
                 </LinearLayout>
 
                 <View
@@ -58,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:gravity="center_horizontal"
-                        android:text="Ing. Eduar Apaza Yáñez"
+                        android:text="Ing. Ivan Leon Malo"
                         android:textColor="@color/colorexpositor"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -68,7 +71,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:justificationMode="inter_word"
-                        android:text="Ingenierio de Sistemas e Informatica"
+                        android:text="Ingenierio Civil"
                         android:textColor="@color/colortitulo"
                         android:textSize="@dimen/text_size_home_fragment"
                         android:layout_gravity="center_horizontal"
@@ -99,36 +102,6 @@
                             <com.mikhaellopez.circularimageview.CircularImageView
                                 android:layout_width="@dimen/social_media_icon"
                                 android:layout_height="@dimen/social_media_icon"
-                                android:src="@drawable/linkedin"
-                                app:civ_border_color="#3f51b5"
-                                app:civ_border_width="2.5dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="1dp"
-                                app:civ_shadow_color="#3f51b5"/>
-
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="@dimen/social_media_icon"
-                                android:layout_height="@dimen/social_media_icon"
-                                android:src="@drawable/youtube"
-                                app:civ_border_color="#3f51b5"
-                                app:civ_border_width="2.5dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="1dp"
-                                app:civ_shadow_color="#3f51b5"/>
-
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="@dimen/social_media_icon"
-                                android:layout_height="@dimen/social_media_icon"
-                                android:src="@drawable/gorjeo"
-                                app:civ_border_color="#3f51b5"
-                                app:civ_border_width="2.5dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="1dp"
-                                app:civ_shadow_color="#3f51b5"/>
-
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="@dimen/social_media_icon"
-                                android:layout_height="@dimen/social_media_icon"
                                 android:src="@drawable/correo"
                                 app:civ_border_color="#3f51b5"
                                 app:civ_border_width="2.5dp"
@@ -137,7 +110,6 @@
                                 app:civ_shadow_color="#3f51b5"/>
 
                         </LinearLayout>
-
 
                     </HorizontalScrollView>
 
@@ -160,7 +132,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:textAlignment="center"
-                        android:text="Lorem ipsum dolor sitricies ut. Pellee ut commodo lorem, et hendrerit orci. Fusce molestie pulvinar bibendum. Etiam porta id risus a gravida. Suspendisse potenti. Nam ut erat id sapien posuere ullamcorper sit amet non magna. Fusce eu neque mauris. Fusce sollicitudin magna risus, sed lobortis nulla varius facilisis."
+                        android:text="Lorem ipsum dolor sim pm ut erat id sapien posuere ullamcorper sit amet non magna. Fusce eu neque mauris. Fusce sollicitudin magna risus, sed lobortis nulla varius facilisis."
                         android:textColor="#000000"
                         android:textSize="17sp" />
                 </LinearLayout>

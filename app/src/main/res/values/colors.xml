@@ -14,4 +14,5 @@
     <color name="colorTexto">#33691E</color>
     <color name="colorexpositor">#2B7FFD</color>
     <color name="colortituloconferencia">#000000</color>
+    <color name="colorfondoExpositor">#B536FBA0</color>
 </resources>

@@ -41,7 +41,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/yanez" />
+                        android:src="@drawable/zelada" />
                 </LinearLayout>
 
                 <View
@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:gravity="center_horizontal"
-                        android:text="Ing. Eduar Apaza Yáñez"
+                        android:text="Ing. Oscar Zelada Pozo"
                         android:textColor="@color/colorexpositor"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -100,26 +100,6 @@
                                 android:layout_width="@dimen/social_media_icon"
                                 android:layout_height="@dimen/social_media_icon"
                                 android:src="@drawable/linkedin"
-                                app:civ_border_color="#3f51b5"
-                                app:civ_border_width="2.5dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="1dp"
-                                app:civ_shadow_color="#3f51b5"/>
-
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="@dimen/social_media_icon"
-                                android:layout_height="@dimen/social_media_icon"
-                                android:src="@drawable/youtube"
-                                app:civ_border_color="#3f51b5"
-                                app:civ_border_width="2.5dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="1dp"
-                                app:civ_shadow_color="#3f51b5"/>
-
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="@dimen/social_media_icon"
-                                android:layout_height="@dimen/social_media_icon"
-                                android:src="@drawable/gorjeo"
                                 app:civ_border_color="#3f51b5"
                                 app:civ_border_width="2.5dp"
                                 app:civ_shadow="true"
