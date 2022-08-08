@@ -5,6 +5,14 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
 }
 
+
+dependencies {
+    //path 'com.android.tools.build:gradle:7.2.2'
+    //path 'org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version'
+    //path 'androidx.navigation:navigation-safe-args-gradle-plugin:2.5.1'
+}
+
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
