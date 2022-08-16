@@ -1,17 +1,29 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        // Make sure that you have the following two repositories
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.13'
+        classpath 'com.android.tools.build:gradle:7.2.2'
+    }
+}
+
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+    id 'com.google.gms.google-services' version '4.3.13' apply false
 }
 
 
 dependencies {
-    //path 'com.android.tools.build:gradle:7.2.2'
     'androidx.navigation:navigation-safe-args-generator:2.5.1'
-    //path 'org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version'
+    'com.google.gms:google-services:4.3.13'
+    'com.google.gms.google-services:com.google.gms.google-services.gradle.plugin:4.3.13'
 }
-
 
 task clean(type: Delete) {
     delete rootProject.buildDir
