@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_expositoresFragment_to_ubicacionFragment"
             app:destination="@id/ubicacionFragment" />
+        <action
+            android:id="@+id/expositoresDetailDialogsFragment"
+            app:destination="@id/Fragments.ExpositoresDetailDialogsFragment" />
     </fragment>
     <fragment
         android:id="@+id/cronogramaFragment"
@@ -31,12 +34,19 @@
         <action
             android:id="@+id/action_cronogramaFragment_to_expositoresFragment"
             app:destination="@id/expositoresFragment" />
+        <action
+            android:id="@+id/cronogramaDetailDialogsFragment"
+            app:destination="@id/Fragments.CronogramaDetailDialogsFragment" />
     </fragment>
     <fragment
         android:id="@+id/ubicacionFragment"
         android:name="com.example.aplicacionesmovilesb.Fragments.UbicacionFragment"
         android:label="fragment_ubicacion"
-        tools:layout="@layout/fragment_ubicacion" />
+        tools:layout="@layout/fragment_ubicacion" >
+        <action
+            android:id="@+id/ubicacionDetailDialogsFragment"
+            app:destination="@id/Fragments.UbicacionDetailDialogsFragment" />
+    </fragment>
 
     <dialog
         android:id="@+id/Fragments.ExpositoresDetailDialogsFragment"
