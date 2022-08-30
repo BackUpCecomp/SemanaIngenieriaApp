@@ -3,22 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/navHomeFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.HomeFragment"
+        android:id="@+id/navHomeFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_cronogramaFragment"
-            app:destination="@id/cronogramaFragment" />
+            app:destination="@id/navCronogramaFragment" />
     </fragment>
     <fragment
-        android:id="@+id/expositoresFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.ExpositoresFragment"
+        android:id="@+id/navCronogramaFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.CronogramaFragment"
+        android:label="fragment_cronograma"
+        tools:layout="@layout/fragment_cronograma">
+        <action
+            android:id="@+id/action_cronogramaFragment_to_expositoresFragment"
+            app:destination="@id/navExpositoresFragment" />
+        <action
+            android:id="@+id/cronogramaDetailDialogsFragment"
+            app:destination="@id/Fragments.CronogramaDetailDialogsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navExpositoresFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.ExpositoresFragment"
         android:label="fragment_expositores"
-        tools:layout="@layout/fragment_expositores" >
+        tools:layout="@layout/fragment_expositores">
         <action
             android:id="@+id/action_expositoresFragment_to_ubicacionFragment"
             app:destination="@id/ubicacionFragment" />
@@ -26,23 +38,12 @@
             android:id="@+id/expositoresDetailDialogsFragment"
             app:destination="@id/Fragments.ExpositoresDetailDialogsFragment" />
     </fragment>
+
     <fragment
-        android:id="@+id/cronogramaFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.CronogramaFragment"
-        android:label="fragment_cronograma"
-        tools:layout="@layout/fragment_cronograma" >
-        <action
-            android:id="@+id/action_cronogramaFragment_to_expositoresFragment"
-            app:destination="@id/expositoresFragment" />
-        <action
-            android:id="@+id/cronogramaDetailDialogsFragment"
-            app:destination="@id/Fragments.CronogramaDetailDialogsFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/ubicacionFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.UbicacionFragment"
+        android:id="@+id/navMapaFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.UbicacionFragment"
         android:label="fragment_ubicacion"
-        tools:layout="@layout/fragment_ubicacion" >
+        tools:layout="@layout/fragment_ubicacion">
         <action
             android:id="@+id/ubicacionDetailDialogsFragment"
             app:destination="@id/Fragments.UbicacionDetailDialogsFragment" />
@@ -50,25 +51,25 @@
 
     <dialog
         android:id="@+id/Fragments.ExpositoresDetailDialogsFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.ExpositoresDetailDialogsFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.ExpositoresDetailDialogsFragment"
         android:label="fragment_expositores_dialog"
-        tools:layout="@layout/fragment_expositores_detail_dialogs"/>
+        tools:layout="@layout/fragment_expositores_detail_dialogs" />
 
     <dialog
         android:id="@+id/Fragments.CronogramaDetailDialogsFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.CronogramaDetailDialogsFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.CronogramaDetailDialogsFragment"
         android:label="fragment_cronograma_dialog"
-        tools:layout="@layout/fragment_cronograma_detail_dialogs"/>
+        tools:layout="@layout/fragment_cronograma_detail_dialogs" />
     <dialog
         android:id="@+id/Fragments.UbicacionDetailDialogsFragment"
-        android:name="com.example.aplicacionesmovilesb.Fragments.UbicacionDetailDialogsFragment"
+        android:name="com.example.aplicacionesmovilesb.view.ui.fragments.UbicacionDetailDialogsFragment"
         android:label="fragment_ubicacion_dialog"
-        tools:layout="@layout/fragment_ubicacion_detail_dialogs"/>
+        tools:layout="@layout/fragment_ubicacion_detail_dialogs" />
 
 
     <activity
         android:id="@+id/inicioActivity2"
-        android:name="com.example.aplicacionesmovilesb.UI.InicioActivity"
+        android:name="com.example.aplicacionesmovilesb.view.ui.activities.InicioActivity"
         android:label="activity_inicio"
         tools:layout="@layout/activity_inicio" />
 </navigation>

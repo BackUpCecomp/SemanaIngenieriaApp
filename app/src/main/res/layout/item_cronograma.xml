@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <ScrollView
+        android:id="@+id/sv_activities"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -207,6 +208,7 @@
                         android:layout_height="5dp" />
 
                     <Button
+                        android:id="@+id/btn_asistir_2"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:layout_gravity="left"

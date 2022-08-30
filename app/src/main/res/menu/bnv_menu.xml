@@ -8,7 +8,6 @@
         android:icon="@drawable/ic_home_24"
         android:title="Inicio" />
 
-
     <item
         android:id="@+id/navCronogramaFragment"
         android:icon="@drawable/ic_calendar_24"

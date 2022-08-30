@@ -1,0 +1,92 @@
+[
+  {
+    "biografia" : "Pedro Juarez, creativo y content creator del equipo de innova, transforma las ideas en historias inspiradoras y contenidos innovadores que impactan al mundo para generar gracias, no solo likes, de nada sirve tu talento si no estas haciendo algo con el, de nada sirven tus habilidades si no tienes ideas para fusionarlas.",
+    "categoria" : 5,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/1015273976438902784/T0gZSbTP_400x400.jpg",
+    "profesion" : "Content Creator",
+    "nombre" : "Pedro Juarez",
+    "twitter" : "juarezpedro",
+    "lugartrabajo" : "InTrivia"
+  },
+  {
+    "biografia" : "Líder del equipo de Growth en Outsiden y Google Doc Expert en Marketing, especialista en análisis de datos, presupuesto y proyecciones de Startups, lo que lo ha llevado a ser un gran conferencista a nivel mundial. Recuerden si estamos haciendo algo y no estamos aprendiendo de ello, no sirve de nada.",
+    "categoria" : 9,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/1128429578647736321/5ZwuI5_Q_400x400.jpg",
+    "profesion" : "Head of Growth",
+    "nombre" : "Edwin Tenorio",
+    "twitter" : "tenorifico",
+    "lugartrabajo" : "Outsiden"
+  },
+  {
+    "biografia" : "Ricardo Llerena es Google Developer Expert, Co-fundador y Chief Technology en Metix Medical. Es un gran facilitador de equipos con metodologías ágiles y reconocido profesor de Google. SRE en Globant. Google Developer Expert y Google Cloud Authorized Trainer. Organizador en GDG Cloud MX.",
+    "categoria" : 6,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/1225834733549965312/JixgS3m__400x400.jpg",
+    "profesion" : "Co-founder & CTO",
+    "nombre" : "Ricardo Llerena",
+    "twitter" : "ricardoelbueno",
+    "lugartrabajo" : "Metrix"
+  },
+  {
+    "biografia" : "Co-fundadora de Fitco, donde estamos ayudando a Fitness Boutiques a crecer a través de la tecnología. Trabajando y apasionado por el crecimiento de SaaS a través de ventas, inbound marketing y asociaciones.",
+    "categoria" : 11,
+    "imagen" : "https://media-exp2.licdn.com/dms/imagen/C4E03AQE3a2dbco8Niw/profile-displayphoto-shrink_800_800/0?e=1585180800&v=beta&t=Pb0KFPrtO-FR2zUlk_rPSPmZU_LAdpowWAt9s2LgzKA",
+    "profesion" : "CEO",
+    "nombre" : "Andrea Baba",
+    "twitter" : "butiqlive",
+    "lugartrabajo" : "FITco"
+  },
+  {
+    "biografia" : "Co-fundador y CEO de Iconic, empresario y estratega en servicios tecnológicos. Reconocido en el MIT Technology Review Innovator under 35 Awards como innovador social por su proyecto Votosocial.org",
+    "categoria" : 8,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/1102611265720107009/rUulO29A_400x400.png",
+    "profesion" : "CTO - Co-founder",
+    "nombre" : "Jorge Garcia",
+    "twitter" : "jagbolanos",
+    "lugartrabajo" : "Iconic"
+  },
+  {
+    "biografia" : "Cada cuadro tiene un proceso que debe hacerse antes de la acción de juego.",
+    "categoria" : 17,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/976117964591087617/61w43dr0_400x400.jpg",
+    "profesion" : "Production Manager",
+    "nombre" : "Erick Orejuela",
+    "twitter" : "orejuelas",
+    "lugartrabajo" : "Performances"
+  },
+  {
+    "biografia" : "Course Director del equipo de Education en Virtualnet. Blogguera y periodista del Universal en México, especialista en técnicas orales y escritas del periodismo con una amplia visión en el mundo digital.",
+    "categoria" : 7,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/674117824135081984/p5SJ33YJ_400x400.jpg",
+    "profesion" : "Course Director",
+    "nombre" : "Isis García",
+    "twitter" : "IsisConVelo",
+    "lugartrabajo" : "Virtualnet"
+  },
+  {
+    "biografia" : "Director and cinematographer. Writer, Podcaster and teacher of audiovisual content.",
+    "categoria" : 16,
+    "imagen" : "https://media-exp2.licdn.com/dms/imagen/C4E03AQF-6RBsJ6-iDA/profile-displayphoto-shrink_800_800/0?e=1585180800&v=beta&t=yLMYrEr0O19UdV30I2Ff2LgjMDDyoWH9qpDGSIXNgA8",
+    "profesion" : "Writer",
+    "nombre" : "Nicolay Coral",
+    "twitter" : "nicolaycoral",
+    "lugartrabajo" : ""
+  },
+  {
+    "biografia" : "Mario Valle es uno de los mexicanos más prominentes de Silicon Valley. Fue pionero de la industria de videojuegos en América Latina y por 11 años fue ejecutivo de la gigante Electronic Arts. ¿Por qué, entonces, dejarlo todo para lanzarse a ser inversionista? Mario (donante y fan #terco de la primera hora) nos cuenta que estaba cómodo y contento en EA. Pero la oportunidad que vio de invertir en videojuegos de creadores independientes en Asia, Europa, América Latina y hasta África le pareció demasiado grande para dejarla pasar. Lanzó Altered Ventures, un fondo que invierte como si fuera una productora de Hollywood: Le mete dinero a los proyectos, los videojuegos, y no a las empresas. Por lo tanto, no les pide a los desarrolladores que le cedan un porcentaje de propiedad de sus compañías, lo que –dice– en regiones como América Latina lleva a abusos de parte de los inversionistas. Mario tiene 36 millones de dólares para invertir en nuevos títulos y parte de su trabajo para lanzar el fondo fue viajar por el mundo jugando videojuegos para conocer qué es lo que viene. Ya invirtió en un juego innovador hecho en Noruega (que se lanza el 21 de junio en Nintendo Switch) y pronto vienen más.",
+    "categoria" : 3,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/1177427481831194625/MGmAHgel_400x400.jpg",
+    "profesion" : "Angel Investor & Co-founder",
+    "nombre" : "Mario Valle",
+    "twitter" : "bilbeny",
+    "lugartrabajo" : "Altered Ventures"
+  },
+  {
+    "biografia" : "Tuerto en país de ciegos | Nerd empedernido | Constructor de marcas | Estratega digital",
+    "categoria" : 15,
+    "imagen" : "https://pbs.twimg.com/profile_imagens/1125995646585065474/oJkHqDhY_400x400.png",
+    "profesion" : "Director",
+    "nombre" : "Ruben Gomez",
+    "twitter" : "soyrubengomez",
+    "lugartrabajo" : "gom360"
+  }
+]
